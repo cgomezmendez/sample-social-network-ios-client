@@ -1,0 +1,4 @@
+github "malcommac/SwiftDate" ~>2.0
+github "MoZhouqi/KMPlaceholderTextView" >= 1.1
+github "Alamofire/Alamofire" ~> 3.0
+github "Alamofire/AlamofireImage" ~> 2.0

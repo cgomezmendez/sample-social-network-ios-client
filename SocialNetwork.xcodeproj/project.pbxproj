@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C507F2F01C18568300AFA144 /* PostParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C507F2EF1C18568300AFA144 /* PostParser.swift */; };
+		C507F2F21C199BA200AFA144 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C507F2F11C199BA200AFA144 /* User.swift */; };
+		C507F2F41C199BAA00AFA144 /* UserParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C507F2F31C199BAA00AFA144 /* UserParser.swift */; };
+		C507F2F61C199BF400AFA144 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = C507F2F51C199BF400AFA144 /* Picture.swift */; };
+		C507F2F81C199CF800AFA144 /* PictureParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C507F2F71C199CF800AFA144 /* PictureParser.swift */; };
+		C51CB9301C3A2F74009C601D /* SnetworkApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51CB92F1C3A2F74009C601D /* SnetworkApiManager.swift */; };
+		C51CB9321C3A312F009C601D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51CB9311C3A312F009C601D /* Alamofire.framework */; };
+		C51CB9341C3A4E5C009C601D /* SinglePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51CB9331C3A4E5C009C601D /* SinglePostViewController.swift */; };
+		C51CB9361C3A6261009C601D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51CB9351C3A6261009C601D /* Utils.swift */; };
+		C51CB9381C3A8F15009C601D /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51CB9371C3A8F15009C601D /* AlamofireImage.framework */; };
+		C54229BA1C281378007338BB /* AuthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54229B91C281378007338BB /* AuthData.swift */; };
+		C55EE2461C3A1BF80048019A /* PostPublishController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55EE2451C3A1BF80048019A /* PostPublishController.swift */; };
+		C55EE2481C3A2AA70048019A /* KMPlaceholderTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55EE2471C3A2AA70048019A /* KMPlaceholderTextView.framework */; };
+		C572B6D91C18337200C202C8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C572B6D81C18337200C202C8 /* Post.swift */; };
 		C59B30C11C1517BD009B246F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59B30C01C1517BD009B246F /* AppDelegate.swift */; };
 		C59B30C31C1517BD009B246F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59B30C21C1517BD009B246F /* ViewController.swift */; };
 		C59B30C61C1517BD009B246F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59B30C41C1517BD009B246F /* Main.storyboard */; };
@@ -14,6 +28,11 @@
 		C59B30CB1C1517BD009B246F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59B30C91C1517BD009B246F /* LaunchScreen.storyboard */; };
 		C59B30D61C1517BD009B246F /* SocialNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59B30D51C1517BD009B246F /* SocialNetworkTests.swift */; };
 		C59B30E11C1517BD009B246F /* SocialNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59B30E01C1517BD009B246F /* SocialNetworkUITests.swift */; };
+		C59FCE021C23844300B3976F /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C59FCE011C23844300B3976F /* KeychainWrapper.m */; };
+		C59FCE041C23A9C000B3976F /* NSDateISO8601.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59FCE031C23A9C000B3976F /* NSDateISO8601.swift */; };
+		C59FCE071C23B84C00B3976F /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59FCE061C23B84C00B3976F /* SwiftDate.framework */; };
+		C5B168D91C158E5A0056D2F9 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B168D81C158E5A0056D2F9 /* PostTableViewCell.swift */; };
+		C5B168DB1C158EBE0056D2F9 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B168DA1C158EBE0056D2F9 /* FeedTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +53,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C507F2EF1C18568300AFA144 /* PostParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostParser.swift; sourceTree = "<group>"; };
+		C507F2F11C199BA200AFA144 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C507F2F31C199BAA00AFA144 /* UserParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserParser.swift; sourceTree = "<group>"; };
+		C507F2F51C199BF400AFA144 /* Picture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		C507F2F71C199CF800AFA144 /* PictureParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureParser.swift; sourceTree = "<group>"; };
+		C51CB92F1C3A2F74009C601D /* SnetworkApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnetworkApiManager.swift; sourceTree = "<group>"; };
+		C51CB9311C3A312F009C601D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		C51CB9331C3A4E5C009C601D /* SinglePostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinglePostViewController.swift; sourceTree = "<group>"; };
+		C51CB9351C3A6261009C601D /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		C51CB9371C3A8F15009C601D /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		C54229B91C281378007338BB /* AuthData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthData.swift; sourceTree = "<group>"; };
+		C55EE2451C3A1BF80048019A /* PostPublishController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostPublishController.swift; sourceTree = "<group>"; };
+		C55EE2471C3A2AA70048019A /* KMPlaceholderTextView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KMPlaceholderTextView.framework; path = Carthage/Build/iOS/KMPlaceholderTextView.framework; sourceTree = "<group>"; };
+		C572B6D81C18337200C202C8 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		C59B30BD1C1517BD009B246F /* SocialNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59B30C01C1517BD009B246F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C59B30C21C1517BD009B246F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +80,13 @@
 		C59B30DC1C1517BD009B246F /* SocialNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59B30E01C1517BD009B246F /* SocialNetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkUITests.swift; sourceTree = "<group>"; };
 		C59B30E21C1517BD009B246F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C59FCDFF1C23844300B3976F /* SocialNetwork-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocialNetwork-Bridging-Header.h"; sourceTree = "<group>"; };
+		C59FCE001C23844300B3976F /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
+		C59FCE011C23844300B3976F /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainWrapper.m; sourceTree = "<group>"; };
+		C59FCE031C23A9C000B3976F /* NSDateISO8601.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateISO8601.swift; sourceTree = "<group>"; };
+		C59FCE061C23B84C00B3976F /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/iOS/SwiftDate.framework; sourceTree = "<group>"; };
+		C5B168D81C158E5A0056D2F9 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		C5B168DA1C158EBE0056D2F9 /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C59FCE071C23B84C00B3976F /* SwiftDate.framework in Frameworks */,
+				C55EE2481C3A2AA70048019A /* KMPlaceholderTextView.framework in Frameworks */,
+				C51CB9321C3A312F009C601D /* Alamofire.framework in Frameworks */,
+				C51CB9381C3A8F15009C601D /* AlamofireImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +121,10 @@
 		C59B30B41C1517BD009B246F = {
 			isa = PBXGroup;
 			children = (
+				C51CB9371C3A8F15009C601D /* AlamofireImage.framework */,
+				C51CB9311C3A312F009C601D /* Alamofire.framework */,
+				C55EE2471C3A2AA70048019A /* KMPlaceholderTextView.framework */,
+				C59FCE061C23B84C00B3976F /* SwiftDate.framework */,
 				C59B30BF1C1517BD009B246F /* SocialNetwork */,
 				C59B30D41C1517BD009B246F /* SocialNetworkTests */,
 				C59B30DF1C1517BD009B246F /* SocialNetworkUITests */,
@@ -97,12 +145,29 @@
 		C59B30BF1C1517BD009B246F /* SocialNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				C59FCE031C23A9C000B3976F /* NSDateISO8601.swift */,
+				C59FCE001C23844300B3976F /* KeychainWrapper.h */,
+				C59FCE011C23844300B3976F /* KeychainWrapper.m */,
 				C59B30C01C1517BD009B246F /* AppDelegate.swift */,
 				C59B30C21C1517BD009B246F /* ViewController.swift */,
 				C59B30C41C1517BD009B246F /* Main.storyboard */,
+				C5B168DA1C158EBE0056D2F9 /* FeedTableViewController.swift */,
+				C51CB9351C3A6261009C601D /* Utils.swift */,
 				C59B30C71C1517BD009B246F /* Assets.xcassets */,
 				C59B30C91C1517BD009B246F /* LaunchScreen.storyboard */,
 				C59B30CC1C1517BD009B246F /* Info.plist */,
+				C5B168D81C158E5A0056D2F9 /* PostTableViewCell.swift */,
+				C572B6D81C18337200C202C8 /* Post.swift */,
+				C507F2EF1C18568300AFA144 /* PostParser.swift */,
+				C507F2F11C199BA200AFA144 /* User.swift */,
+				C507F2F31C199BAA00AFA144 /* UserParser.swift */,
+				C507F2F51C199BF400AFA144 /* Picture.swift */,
+				C507F2F71C199CF800AFA144 /* PictureParser.swift */,
+				C59FCDFF1C23844300B3976F /* SocialNetwork-Bridging-Header.h */,
+				C54229B91C281378007338BB /* AuthData.swift */,
+				C55EE2451C3A1BF80048019A /* PostPublishController.swift */,
+				C51CB92F1C3A2F74009C601D /* SnetworkApiManager.swift */,
+				C51CB9331C3A4E5C009C601D /* SinglePostViewController.swift */,
 			);
 			path = SocialNetwork;
 			sourceTree = "<group>";
@@ -135,6 +200,7 @@
 				C59B30B91C1517BD009B246F /* Sources */,
 				C59B30BA1C1517BD009B246F /* Frameworks */,
 				C59B30BB1C1517BD009B246F /* Resources */,
+				C59FCE051C23B40900B3976F /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -187,7 +253,7 @@
 		C59B30B51C1517BD009B246F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Cristian J Gomez";
 				TargetAttributes = {
@@ -251,13 +317,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C59FCE051C23B40900B3976F /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftDate.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/KMPlaceholderTextView.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C59B30B91C1517BD009B246F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C51CB9341C3A4E5C009C601D /* SinglePostViewController.swift in Sources */,
+				C507F2F61C199BF400AFA144 /* Picture.swift in Sources */,
+				C55EE2461C3A1BF80048019A /* PostPublishController.swift in Sources */,
 				C59B30C31C1517BD009B246F /* ViewController.swift in Sources */,
 				C59B30C11C1517BD009B246F /* AppDelegate.swift in Sources */,
+				C507F2F81C199CF800AFA144 /* PictureParser.swift in Sources */,
+				C5B168D91C158E5A0056D2F9 /* PostTableViewCell.swift in Sources */,
+				C5B168DB1C158EBE0056D2F9 /* FeedTableViewController.swift in Sources */,
+				C54229BA1C281378007338BB /* AuthData.swift in Sources */,
+				C51CB9361C3A6261009C601D /* Utils.swift in Sources */,
+				C507F2F01C18568300AFA144 /* PostParser.swift in Sources */,
+				C59FCE021C23844300B3976F /* KeychainWrapper.m in Sources */,
+				C572B6D91C18337200C202C8 /* Post.swift in Sources */,
+				C507F2F21C199BA200AFA144 /* User.swift in Sources */,
+				C51CB9301C3A2F74009C601D /* SnetworkApiManager.swift in Sources */,
+				C507F2F41C199BAA00AFA144 /* UserParser.swift in Sources */,
+				C59FCE041C23A9C000B3976F /* NSDateISO8601.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,10 +500,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SocialNetwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.cristiangomez.SocialNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SocialNetwork/SocialNetwork-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -408,10 +518,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SocialNetwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.cristiangomez.SocialNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SocialNetwork/SocialNetwork-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +598,7 @@
 				C59B30E71C1517BD009B246F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C59B30E81C1517BD009B246F /* Build configuration list for PBXNativeTarget "SocialNetworkTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +607,7 @@
 				C59B30EA1C1517BD009B246F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C59B30EB1C1517BD009B246F /* Build configuration list for PBXNativeTarget "SocialNetworkUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +616,7 @@
 				C59B30ED1C1517BD009B246F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
